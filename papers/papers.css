@@ -513,6 +513,10 @@ main {
   box-shadow: 0 1px 0 rgba(15, 23, 42, 0.02);
 }
 
+.paper-card.no-thumb {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .thumb-link {
   position: relative;
   display: block;
