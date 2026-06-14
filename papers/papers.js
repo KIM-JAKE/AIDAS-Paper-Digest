@@ -284,7 +284,7 @@ async function postComment(paperId, message) {
     return;
   }
 
-  const { error } = await state.supabase
+  const { data, error } = await state.supabase
     .from("paper_comments")
     .insert({ paper_id: paperId, message: trimmed, voter_name: state.voterName });
   if (error) {
@@ -312,15 +312,21 @@ async function editComment(paperId, commentId) {
     return;
   }
 
-  const { error } = await state.supabase
+  const { data, error } = await state.supabase
     .from("paper_comments")
     .update({ message: trimmed })
     .eq("id", commentId)
-    .eq("voter_name", state.voterName);
+    .eq("voter_name", state.voterName)
+    .select("id");
   if (error) {
     console.warn("Unable to edit paper comment", error);
     await loadComments();
     renderPapers();
+    window.alert("Could not edit comment. Check Supabase update policy.");
+  } else if (!data?.length) {
+    await loadComments();
+    renderPapers();
+    window.alert("No comment was edited. Check that you are using the same name and Supabase update policy is enabled.");
   }
 }
 
@@ -341,15 +347,21 @@ async function deleteComment(paperId, commentId) {
     return;
   }
 
-  const { error } = await state.supabase
+  const { data, error } = await state.supabase
     .from("paper_comments")
     .delete()
     .eq("id", commentId)
-    .eq("voter_name", state.voterName);
+    .eq("voter_name", state.voterName)
+    .select("id");
   if (error) {
     console.warn("Unable to delete paper comment", error);
     await loadComments();
     renderPapers();
+    window.alert("Could not delete comment. Check Supabase delete policy.");
+  } else if (!data?.length) {
+    await loadComments();
+    renderPapers();
+    window.alert("No comment was deleted. Check that you are using the same name.");
   }
 }
 
@@ -373,7 +385,7 @@ async function postFeedback(message) {
     return;
   }
 
-  const { error } = await state.supabase
+  const { data, error } = await state.supabase
     .from("feedback_posts")
     .insert({ message: trimmed, voter_name: state.voterName });
   if (error) {
@@ -399,14 +411,19 @@ async function editFeedback(feedbackId) {
     return;
   }
 
-  const { error } = await state.supabase
+  const { data, error } = await state.supabase
     .from("feedback_posts")
     .update({ message: trimmed })
     .eq("id", feedbackId)
-    .eq("voter_name", state.voterName);
+    .eq("voter_name", state.voterName)
+    .select("id");
   if (error) {
     console.warn("Unable to edit feedback", error);
     await loadFeedback();
+    window.alert("Could not edit feedback. Check Supabase update policy.");
+  } else if (!data?.length) {
+    await loadFeedback();
+    window.alert("No feedback was edited. Check that you are using the same name and Supabase update policy is enabled.");
   }
 }
 
@@ -424,14 +441,19 @@ async function deleteFeedback(feedbackId) {
     return;
   }
 
-  const { error } = await state.supabase
+  const { data, error } = await state.supabase
     .from("feedback_posts")
     .delete()
     .eq("id", feedbackId)
-    .eq("voter_name", state.voterName);
+    .eq("voter_name", state.voterName)
+    .select("id");
   if (error) {
     console.warn("Unable to delete feedback", error);
     await loadFeedback();
+    window.alert("Could not delete feedback. Check Supabase delete policy.");
+  } else if (!data?.length) {
+    await loadFeedback();
+    window.alert("No feedback was deleted. Check that you are using the same name.");
   }
 }
 
