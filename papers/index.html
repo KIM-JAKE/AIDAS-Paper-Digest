@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIDAS Paper Digest</title>
+    <meta
+      name="description"
+      content="A category-first board for tracking high-signal AI research papers."
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+    <link rel="stylesheet" href="./papers.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script defer src="./supabase-config.js"></script>
+    <script defer src="./papers.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Paper Board home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>AIDAS Paper Digest</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Research radar</p>
+          <h1 id="page-title">AIDAS Paper Digest</h1>
+          <p>
+            Curated from community and implementation signals, then grouped by research area.
+          </p>
+        </div>
+      </section>
+
+      <div class="board-shell">
+        <aside class="controls" id="board" aria-label="Paper board controls">
+          <div class="search-wrap">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="m21 21-4.3-4.3m1.3-5.2a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"
+              ></path>
+            </svg>
+            <input
+              id="searchInput"
+              type="search"
+              autocomplete="off"
+              placeholder="Search title, tag, lab, source..."
+              aria-label="Search papers"
+            />
+          </div>
+
+          <div class="filter-row" id="categoryTabs" aria-label="Paper categories"></div>
+
+          <div class="sort-panel" aria-label="Paper sorting controls">
+            <label class="sort-field" title="Newest filters papers by publication date before ranking.">
+              <span>Newest</span>
+              <select id="newestSelect">
+                <option value="all">All time</option>
+                <option value="7">7 days</option>
+                <option value="30">30 days</option>
+                <option value="90">90 days</option>
+              </select>
+            </label>
+            <label
+              class="sort-field"
+              title="AIDAS Rank uses member upvotes first. Comments sorts by discussion count. Hot uses source/code/community signals."
+            >
+              <span>Sort</span>
+              <select id="sortSelect">
+                <option value="aidas">AIDAS Rank</option>
+                <option value="comments">Comments</option>
+                <option value="signal">Hot</option>
+                <option value="newest">Newest</option>
+                <option value="title">Title</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="member-panel" aria-label="AIDAS member">
+            <span>AIDAS member</span>
+            <strong id="aidasMemberName">Locked</strong>
+            <button id="aidasChangeName" type="button">Change</button>
+          </div>
+
+          <button class="feedback-nav" id="feedbackOpen" type="button">Feedback Board</button>
+        </aside>
+
+        <section class="paper-grid" id="paperGrid" aria-live="polite"></section>
+        <nav class="pagination" id="pagination" aria-label="Paper pages"></nav>
+
+        <section class="feedback-board" id="feedbackBoard" aria-label="Feedback board" hidden>
+          <div class="feedback-board-head">
+            <div>
+              <p class="eyebrow">AIDAS board</p>
+              <h2>Feedback</h2>
+            </div>
+            <div class="feedback-board-actions">
+              <button id="feedbackRefresh" type="button">Refresh</button>
+              <button id="feedbackClose" type="button">Back to papers</button>
+            </div>
+          </div>
+          <form id="feedbackForm" class="feedback-form">
+            <textarea
+              id="feedbackInput"
+              rows="4"
+              maxlength="500"
+              placeholder="Leave feedback..."
+              aria-label="Feedback message"
+            ></textarea>
+            <button type="submit">Post feedback</button>
+          </form>
+          <div class="feedback-list" id="feedbackList" aria-live="polite"></div>
+        </section>
+      </div>
+    </main>
+
+    <div class="aidas-gate" id="aidasGate" hidden>
+      <form class="gate-panel" id="gateForm">
+        <h2>AIDAS access</h2>
+        <label>
+          <span>Password</span>
+          <input id="gatePassword" type="password" autocomplete="current-password" required />
+        </label>
+        <label>
+          <span>Name</span>
+          <input id="gateName" type="text" autocomplete="name" required />
+        </label>
+        <p id="gateError" class="gate-error" aria-live="polite"></p>
+        <button type="submit">Enter</button>
+      </form>
+    </div>
+  </body>
+</html>
