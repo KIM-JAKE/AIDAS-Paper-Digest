@@ -1,6 +1,206 @@
 {
-  "generatedAt": "2026-06-27T00:28:42.915Z",
+  "generatedAt": "2026-06-27T01:41:12.062Z",
   "signals": [
+    {
+      "id": "2070665903440871779",
+      "handle": "AnthropicAI",
+      "name": "Anthropic",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg",
+      "verified": true,
+      "text": "Since June 12, we’ve been working closely with the US government to restore access to Claude Mythos 5 and Fable 5. Today, the government notified us that Mythos 5, our strongest cybersecurity model, can be redeployed to a set of US organizations that operate and defend critical",
+      "createdAt": "Sat Jun 27 00:29:57 +0000 2026",
+      "permalink": "https://twitter.com/AnthropicAI/status/2070665903440871779",
+      "media": [],
+      "metrics": {
+        "like_count": 7065,
+        "retweet_count": 891,
+        "reply_count": 813
+      },
+      "urls": []
+    },
+    {
+      "id": "2070648545883902039",
+      "handle": "chris_j_paxton",
+      "name": "Chris Paxton",
+      "avatar": "https://pbs.twimg.com/profile_images/1330994153518411777/2LfHg9GF_normal.jpg",
+      "verified": true,
+      "text": "Ladderman -- teach your robot to climb a ladder using sim to real! If we have humanoids they should be able to climb and manipulate.\nNo robopapers episode this week (we are back next week!) But can watch this episode of Eren's podcast in the meantime",
+      "createdAt": "Fri Jun 26 23:20:58 +0000 2026",
+      "permalink": "https://twitter.com/chris_j_paxton/status/2070648545883902039",
+      "media": [
+        {
+          "type": "video",
+          "image": "https://pbs.twimg.com/ext_tw_video_thumb/2070648527697428481/pu/img/hFOdnuFh7AIGUVgz.jpg"
+        }
+      ],
+      "metrics": {
+        "like_count": 6,
+        "retweet_count": 3,
+        "reply_count": 0
+      },
+      "urls": []
+    },
+    {
+      "id": "2070555985840906333",
+      "handle": "gdb",
+      "name": "Greg Brockman",
+      "avatar": "https://pbs.twimg.com/profile_images/1347621377503711233/bHg3ipfD_normal.jpg",
+      "verified": true,
+      "text": "GPT-5.6 Sol preview — it's a good model:",
+      "createdAt": "Fri Jun 26 17:13:10 +0000 2026",
+      "permalink": "https://twitter.com/gdb/status/2070555985840906333",
+      "media": [
+        {
+          "type": "photo",
+          "image": "https://pbs.twimg.com/media/HLwXpOibAAAR2q0.jpg"
+        }
+      ],
+      "metrics": {
+        "like_count": 5614,
+        "retweet_count": 298,
+        "reply_count": 446
+      },
+      "urls": []
+    },
+    {
+      "id": "2070555280052826429",
+      "handle": "OpenAI",
+      "name": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+      "verified": true,
+      "text": "GPT‑5.6 Sol launches with our most robust safety stack yet.\nWe strengthened real-time protections against high-risk cyber activity and repeated misuse, then spent weeks hardening the system with human red teaming and over 700,000 A100-equivalent GPU hours of automated testing.",
+      "createdAt": "Fri Jun 26 17:10:22 +0000 2026",
+      "permalink": "https://twitter.com/OpenAI/status/2070555280052826429",
+      "media": [],
+      "metrics": {
+        "like_count": 2210,
+        "retweet_count": 71,
+        "reply_count": 57
+      },
+      "urls": []
+    },
+    {
+      "id": "2070555278576439306",
+      "handle": "OpenAI",
+      "name": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+      "verified": true,
+      "text": "GPT-5.6 Sol is our most capable model yet for cybersecurity.\nIt shifts the performance-efficiency frontier for long-horizon security tasks including vulnerability research and exploitation.",
+      "createdAt": "Fri Jun 26 17:10:22 +0000 2026",
+      "permalink": "https://twitter.com/OpenAI/status/2070555278576439306",
+      "media": [
+        {
+          "type": "photo",
+          "image": "https://pbs.twimg.com/media/HLwWT8TagAALRWm.jpg"
+        }
+      ],
+      "metrics": {
+        "like_count": 2444,
+        "retweet_count": 145,
+        "reply_count": 49
+      },
+      "urls": []
+    },
+    {
+      "id": "2070555276370169969",
+      "handle": "OpenAI",
+      "name": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+      "verified": true,
+      "text": "GPT‑5.6 Sol sets a new state of the art on Terminal‑Bench 2.1, which tests complex command-line workflows requiring planning, iteration, and tool coordination.",
+      "createdAt": "Fri Jun 26 17:10:21 +0000 2026",
+      "permalink": "https://twitter.com/OpenAI/status/2070555276370169969",
+      "media": [
+        {
+          "type": "photo",
+          "image": "https://pbs.twimg.com/media/HLwV_VoaMAAYc6s.png"
+        }
+      ],
+      "metrics": {
+        "like_count": 3048,
+        "retweet_count": 193,
+        "reply_count": 63
+      },
+      "urls": []
+    },
+    {
+      "id": "2070540421130785037",
+      "handle": "omarsar0",
+      "name": "elvis",
+      "avatar": "https://pbs.twimg.com/profile_images/939313677647282181/vZjFWtAn_normal.jpg",
+      "verified": true,
+      "text": "One of my best uses of agentic loops has been personal health.\nI don't talk about it often because it's very personal. But here it goes in the hope it helps someone who's struggling.\n(I am not doing this for attention. I am writing this as a personal entry to keep as a reminder",
+      "createdAt": "Fri Jun 26 16:11:19 +0000 2026",
+      "permalink": "https://twitter.com/omarsar0/status/2070540421130785037",
+      "media": [],
+      "metrics": {
+        "like_count": 104,
+        "retweet_count": 2,
+        "reply_count": 19
+      },
+      "urls": []
+    },
+    {
+      "id": "2070528971687755796",
+      "handle": "AnthropicAI",
+      "name": "Anthropic",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg",
+      "verified": true,
+      "text": "AI's impact on the economy will ultimately show up in aggregate data like employment and productivity. But it will first be visible where AI is doing the most work. By tracking how usage shifts, hour by hour, surface by surface, we can start to see those changes as they happen.",
+      "createdAt": "Fri Jun 26 15:25:50 +0000 2026",
+      "permalink": "https://twitter.com/AnthropicAI/status/2070528971687755796",
+      "media": [],
+      "metrics": {
+        "like_count": 100,
+        "retweet_count": 5,
+        "reply_count": 16
+      },
+      "urls": []
+    },
+    {
+      "id": "2070528969523499460",
+      "handle": "AnthropicAI",
+      "name": "Anthropic",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg",
+      "verified": true,
+      "text": "Nearly half of respondents expect their work responsibilities to significantly change in the next 12 months.\nFewer than 10% think they'll lose their own job within a year, but far more worry for coworkers: over 1/3 put the odds of a junior colleague losing their job above 60%.",
+      "createdAt": "Fri Jun 26 15:25:49 +0000 2026",
+      "permalink": "https://twitter.com/AnthropicAI/status/2070528969523499460",
+      "media": [
+        {
+          "type": "photo",
+          "image": "https://pbs.twimg.com/media/HLv9C0ObsAAhoB2.png"
+        }
+      ],
+      "metrics": {
+        "like_count": 124,
+        "retweet_count": 7,
+        "reply_count": 15
+      },
+      "urls": []
+    },
+    {
+      "id": "2070347790115565792",
+      "handle": "minchoi",
+      "name": "Min Choi",
+      "avatar": "https://pbs.twimg.com/profile_images/1638359113221517312/CBZaJFyA_normal.jpg",
+      "verified": true,
+      "text": "We are cooked.\nChina's Alibaba just revealed Wan Streamer.\nAI agents can now see you, hear you, and talk back on video in real time.\nThis is not voice mode anymore 🤯",
+      "createdAt": "Fri Jun 26 03:25:53 +0000 2026",
+      "permalink": "https://twitter.com/minchoi/status/2070347790115565792",
+      "media": [
+        {
+          "type": "video",
+          "image": "https://pbs.twimg.com/amplify_video_thumb/2070345000035155969/img/cx-bsE7rfDtMVsZx.jpg"
+        }
+      ],
+      "metrics": {
+        "like_count": 2126,
+        "retweet_count": 299,
+        "reply_count": 128
+      },
+      "urls": []
+    },
     {
       "id": "2070235085732000228",
       "handle": "omarsar0",
@@ -77,6 +277,94 @@
       "urls": []
     },
     {
+      "id": "2070180902559273471",
+      "handle": "allen_ai",
+      "name": "Ai2",
+      "avatar": "https://pbs.twimg.com/profile_images/1819065604370051072/UrIOp6zI_normal.png",
+      "verified": false,
+      "text": "We hope this kind of token-level comparison helps the field build better, more architecturally diverse models. Going forward, we plan to explore applications of these findings to pretraining evals.\n✍️ Blog: allenai.org/blog/hybrid-to…\n📄 Tech report: arxiv.org/abs/2606.20936",
+      "createdAt": "Thu Jun 25 16:22:43 +0000 2026",
+      "permalink": "https://twitter.com/allen_ai/status/2070180902559273471",
+      "media": [],
+      "metrics": {
+        "like_count": 26,
+        "retweet_count": 0,
+        "reply_count": 0
+      },
+      "urls": [
+        "https://allenai.org/blog/hybrid-token-prediction",
+        "https://arxiv.org/abs/2606.20936"
+      ]
+    },
+    {
+      "id": "2070180900856381560",
+      "handle": "allen_ai",
+      "name": "Ai2",
+      "avatar": "https://pbs.twimg.com/profile_images/1819065604370051072/UrIOp6zI_normal.png",
+      "verified": false,
+      "text": "We find that filtering loss by token type is a promising way to spot architecture differences.\nOverall loss (left) makes transformers &amp; RNNs appear even, with hybrids ahead. Filtered losses (center, right) reveal where transformers &amp; RNNs each shine.",
+      "createdAt": "Thu Jun 25 16:22:43 +0000 2026",
+      "permalink": "https://twitter.com/allen_ai/status/2070180900856381560",
+      "media": [
+        {
+          "type": "photo",
+          "image": "https://pbs.twimg.com/media/HLrCjPYWgAALp4Z.jpg"
+        }
+      ],
+      "metrics": {
+        "like_count": 21,
+        "retweet_count": 0,
+        "reply_count": 1
+      },
+      "urls": []
+    },
+    {
+      "id": "2070180899086385232",
+      "handle": "allen_ai",
+      "name": "Ai2",
+      "avatar": "https://pbs.twimg.com/profile_images/1819065604370051072/UrIOp6zI_normal.png",
+      "verified": false,
+      "text": "In contrast, the transformer matches the hybrid model when the next token completes an n-gram repeated verbatim from earlier in the passage.\nTransformers also match or beat hybrid models at predicting closing brackets like the ], but not opening brackets like [.",
+      "createdAt": "Thu Jun 25 16:22:43 +0000 2026",
+      "permalink": "https://twitter.com/allen_ai/status/2070180899086385232",
+      "media": [
+        {
+          "type": "photo",
+          "image": "https://pbs.twimg.com/media/HLrCjL_WgAAhE_E.jpg"
+        }
+      ],
+      "metrics": {
+        "like_count": 23,
+        "retweet_count": 1,
+        "reply_count": 1
+      },
+      "urls": []
+    },
+    {
+      "id": "2070180509523546481",
+      "handle": "GoogleDeepMind",
+      "name": "Google DeepMind",
+      "avatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_normal.jpg",
+      "verified": false,
+      "text": "Gemini 3.5 Flash now supports native computer use.\nThis built-in tool lets developers build custom agents that can see and take action across browser, mobile, and desktop interfaces.\nFind out more → goo.gle/4f4sNQA",
+      "createdAt": "Thu Jun 25 16:21:10 +0000 2026",
+      "permalink": "https://twitter.com/GoogleDeepMind/status/2070180509523546481",
+      "media": [
+        {
+          "type": "video",
+          "image": "https://pbs.twimg.com/amplify_video_thumb/2070179715038445568/img/av3fxt3QGk6UH4ER.jpg"
+        }
+      ],
+      "metrics": {
+        "like_count": 920,
+        "retweet_count": 106,
+        "reply_count": 56
+      },
+      "urls": [
+        "https://goo.gle/4f4sNQA"
+      ]
+    },
+    {
       "id": "2070042592012570970",
       "handle": "elonmusk",
       "name": "Elon Musk",
@@ -87,9 +375,9 @@
       "permalink": "https://twitter.com/elonmusk/status/2070042592012570970",
       "media": [],
       "metrics": {
-        "like_count": 43471,
-        "retweet_count": 4772,
-        "reply_count": 7961
+        "like_count": 53456,
+        "retweet_count": 6290,
+        "reply_count": 10085
       },
       "urls": []
     },
@@ -146,6 +434,119 @@
         "like_count": 2100,
         "retweet_count": 94,
         "reply_count": 134
+      },
+      "urls": []
+    },
+    {
+      "id": "2069785318887174217",
+      "handle": "GoogleDeepMind",
+      "name": "Google DeepMind",
+      "avatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_normal.jpg",
+      "verified": false,
+      "text": "Watch → goo.gle/4w7S3LM\nSpotify → goo.gle/4eFgIA9\nApple Podcasts → goo.gle/3Sn4ZyM\nOr listen wherever you get your podcasts! 🎧",
+      "createdAt": "Wed Jun 24 14:10:49 +0000 2026",
+      "permalink": "https://twitter.com/GoogleDeepMind/status/2069785318887174217",
+      "media": [],
+      "metrics": {
+        "like_count": 33,
+        "retweet_count": 4,
+        "reply_count": 0
+      },
+      "urls": [
+        "https://goo.gle/4w7S3LM",
+        "https://goo.gle/4eFgIA9",
+        "https://goo.gle/3Sn4ZyM"
+      ]
+    },
+    {
+      "id": "2069785314663497966",
+      "handle": "GoogleDeepMind",
+      "name": "Google DeepMind",
+      "avatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_normal.jpg",
+      "verified": false,
+      "text": "What happens when millions of AI agents start negotiating, transacting, and delegating to one another?\n@weballergy joined our podcast with @fryrsquared to explore the rise of agentic economies – and how we can diversify agent decision-making to avoid AI groupthink.\nTimecodes:",
+      "createdAt": "Wed Jun 24 14:10:48 +0000 2026",
+      "permalink": "https://twitter.com/GoogleDeepMind/status/2069785314663497966",
+      "media": [
+        {
+          "type": "video",
+          "image": "https://pbs.twimg.com/media/HLla9GpWkAAdhHM.jpg"
+        }
+      ],
+      "metrics": {
+        "like_count": 772,
+        "retweet_count": 99,
+        "reply_count": 95
+      },
+      "urls": []
+    },
+    {
+      "id": "2069720412481888400",
+      "handle": "Alibaba_Qwen",
+      "name": "Qwen",
+      "avatar": "https://pbs.twimg.com/profile_images/2064231947149377536/Ab70PxT5_normal.jpg",
+      "verified": true,
+      "text": "We open-source Qwen-AgentWorld-35B-A3B (MoE, 35B/3B active, 256K context) and AgentWorldBench.\nTwo routes, one roadmap:\n🔬 Build the simulator — scalable, controllable, surpassing real environments\n🧠 Internalize world modeling — predict before you act\nQwen-AgentWorld is our",
+      "createdAt": "Wed Jun 24 09:52:54 +0000 2026",
+      "permalink": "https://twitter.com/Alibaba_Qwen/status/2069720412481888400",
+      "media": [
+        {
+          "type": "photo",
+          "image": "https://pbs.twimg.com/media/HLkfvbmXwAA8rth.jpg"
+        }
+      ],
+      "metrics": {
+        "like_count": 275,
+        "retweet_count": 32,
+        "reply_count": 18
+      },
+      "urls": []
+    },
+    {
+      "id": "2069720397747220493",
+      "handle": "Alibaba_Qwen",
+      "name": "Qwen",
+      "avatar": "https://pbs.twimg.com/profile_images/2064231947149377536/Ab70PxT5_normal.jpg",
+      "verified": true,
+      "text": "🧠 Paradigm II — Agent Foundation Model: world modeling as agent capability.\nSingle-turn, non-agentic environment prediction → tested directly on multi-turn, tool-calling agent tasks. No agentic RL, no task-specific tuning.\nGains across 7 benchmarks, including 3 entirely",
+      "createdAt": "Wed Jun 24 09:52:51 +0000 2026",
+      "permalink": "https://twitter.com/Alibaba_Qwen/status/2069720397747220493",
+      "media": [
+        {
+          "type": "photo",
+          "image": "https://pbs.twimg.com/media/HLkarNQXkAAtu30.png"
+        }
+      ],
+      "metrics": {
+        "like_count": 91,
+        "retweet_count": 5,
+        "reply_count": 3
+      },
+      "urls": []
+    },
+    {
+      "id": "2069720392873464078",
+      "handle": "Alibaba_Qwen",
+      "name": "Qwen",
+      "avatar": "https://pbs.twimg.com/profile_images/2064231947149377536/Ab70PxT5_normal.jpg",
+      "verified": true,
+      "text": "Part II: Investigating the Role of World Modeling in Agent Training\n🔬 Paradigm I — Decoupled Simulation: world model as environment simulator for agent RL.\nThe key is controllability:\n1️⃣ Zero-shot generalization to 4k OOD OpenClaw environments → +4.3 Claw-Eval, +7.1",
+      "createdAt": "Wed Jun 24 09:52:49 +0000 2026",
+      "permalink": "https://twitter.com/Alibaba_Qwen/status/2069720392873464078",
+      "media": [
+        {
+          "type": "photo",
+          "image": "https://pbs.twimg.com/media/HLkWlsiXQAA6b2B.png"
+        },
+        {
+          "type": "photo",
+          "image": "https://pbs.twimg.com/media/HLkWmrNb0AA0bsP.png"
+        }
+      ],
+      "metrics": {
+        "like_count": 86,
+        "retweet_count": 3,
+        "reply_count": 1
       },
       "urls": []
     },
@@ -691,7 +1092,7 @@
         }
       ],
       "metrics": {
-        "like_count": 352,
+        "like_count": 353,
         "retweet_count": 66,
         "reply_count": 11
       },
@@ -1050,7 +1451,7 @@
       "metrics": {
         "like_count": 140,
         "retweet_count": 28,
-        "reply_count": 7
+        "reply_count": 8
       },
       "urls": []
     },
@@ -1150,9 +1551,9 @@
         }
       ],
       "metrics": {
-        "like_count": 83,
+        "like_count": 84,
         "retweet_count": 5,
-        "reply_count": 7
+        "reply_count": 8
       },
       "urls": [
         "https://thehumanoidhub.com/articles/newsletter-0007"
@@ -1174,9 +1575,9 @@
         }
       ],
       "metrics": {
-        "like_count": 3511,
-        "retweet_count": 466,
-        "reply_count": 201
+        "like_count": 3531,
+        "retweet_count": 464,
+        "reply_count": 205
       },
       "urls": []
     },
